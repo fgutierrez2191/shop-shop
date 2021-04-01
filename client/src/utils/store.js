@@ -1,22 +1,22 @@
-// import { createStore } from 'redux';
-// import reducers from './reducers';
-// export default createStore(reducers);
+import { createStore } from 'redux';
+import reducers from './reducers';
+export default createStore(reducers);
 
-import { createStore } from "redux";
-import { reducer } from "./reducers";
+// import { createStore } from "redux";
+// import { reducer } from "./reducers";
 
-const initialState = {
-  products: [],
-  cart: [],
-  cartOpen: false,
-  categories: [],
-  currentCategory: "",
-};
+// const initialState = {
+//   products: [],
+//   cart: [],
+//   cartOpen: false,
+//   categories: [],
+//   currentCategory: "",
+// };
 
-const store = createStore(
-  reducer,
-  initialState,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-);
+// const store = createStore(
+//   reducer,
+//   initialState,
+//   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+// );
 
-export default store;
+// export default store;
